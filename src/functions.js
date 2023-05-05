@@ -21,7 +21,15 @@ function indiceDoMaior(array) {
   return maiorNumero;
 }
 // Requisito 3 - Crie a função indiceDoMenor
-
+function indiceDoMenor(array) {
+  let menorNumero = 0;
+  for (index = 0; index <= array.length; index += 1) {
+    if (array[index + 1] < array[index]) {
+      menorNumero = index + 1;
+    }
+  }
+  return menorNumero;
+}
 // Requisito 4 - Crie a função maiorPalavra
 
 // Requisito 5 - Crie a função maisRepetido

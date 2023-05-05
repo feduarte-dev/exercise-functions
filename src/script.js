@@ -1,11 +1,10 @@
-function indiceDoMaior(array) {
-  let maiorNumero = 0;
-  for (index = 0; index < array.length; index += 1) {
-    if (array[index] > array[index + 1]) {
-      maiorNumero = index;
+function indiceDoMenor(array) {
+  let menorNumero = 0;
+  for (index = 0; index <= array.length; index += 1) {
+    if (array[index + 1] < array[index]) {
+      menorNumero = index + 1;
     }
   }
-  return maiorNumero;
-  console.log(maiorNumero)
+  return menorNumero;
 }
-indiceDoMaior([2, 3, 6, 7, 10, 1]);
+indiceDoMenor([2, 4, 6, 7, 10, 0, -3]);
