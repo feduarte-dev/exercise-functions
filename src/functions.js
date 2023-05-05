@@ -31,8 +31,37 @@ function indiceDoMenor(array) {
   return menorNumero;
 }
 // Requisito 4 - Crie a função maiorPalavra
-
+function maiorPalavra(array) {
+  let palavra = 0;
+  for (let index = 0; index < array.length; index += 1) {
+    if (array[index].length > array[palavra].length) {
+      palavra = index;
+    }
+  }
+  return array[palavra];
+}
 // Requisito 5 - Crie a função maisRepetido
+function maisRepetido(array) {
+  let repetido = array[0];
+
+  for (index = 0; index < array.length; index += 1) {
+    repetido = 0;
+    for (index2 = 0; index2 < array.length; index2 += 1) {
+      if (array[index2] === array[index]) {
+        repetido += 1;
+      }
+    }
+  }
+  console.log(repetido);
+  return repetido;
+}
+function repeticoes(repetido) {
+  let repeticoes = 0;
+  if (repetido > repeticoes) {
+    repeticoes = repetido;
+    repetido = array[index];
+  }
+}
 
 // Requisito 6 - Crie a função somatorio
 
