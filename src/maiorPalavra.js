@@ -8,4 +8,4 @@ function maiorPalavra(array) {
   return palavra;
 }
 maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']);
-console.log(palavra)
+console.log(palavra);
