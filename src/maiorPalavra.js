@@ -1,6 +1,6 @@
 function maiorPalavra(array) {
   let palavra = '';
-  for (index = 0; index <= array.length; index += 1) {
+  for (index = 0; index <= array.length - 1; index += 1) {
     if (array[index].length > array[index + 1].length) {
       palavra = array[index];
     }
