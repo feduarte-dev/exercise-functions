@@ -77,7 +77,14 @@ function somatorio(n) {
   }
 }
 // Requisito 7 - Crie a função verificaFimPalavra
-
+function verificaFimPalavra(palavra1, palavra2) {
+  if (palavra1.endsWith(palavra2)) {
+    return true;
+  }
+  if (!palavra1.endsWith(palavra2)) {
+    return false;
+  }
+}
 // Não modifique essas linhas
 module.exports = {
   verificaPalindromo:
