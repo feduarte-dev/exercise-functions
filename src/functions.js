@@ -42,8 +42,6 @@ function maiorPalavra(array) {
 }
 // Requisito 5 - Crie a função maisRepetido
 function maisRepetido(array) {
-  let repetido = array[0];
-
   for (index = 0; index < array.length; index += 1) {
     repetido = 0;
     for (index2 = 0; index2 < array.length; index2 += 1) {
@@ -52,13 +50,12 @@ function maisRepetido(array) {
       }
     }
   }
-  console.log(repetido);
   return repetido;
 }
 function repeticoes(repetido) {
-  let repeticoes = 0;
-  if (repetido > repeticoes) {
-    repeticoes = repetido;
+  let quantasRep = 0;
+  if (repetido > quantasRep) {
+    quantasRep = repetido;
     repetido = array[index];
   }
 }
