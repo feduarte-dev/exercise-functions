@@ -1,4 +1,4 @@
-# README: Stomatopoda Project
+# README: Exercise functions
 
 <img src="assets/functions.png" alt="page" title="page" width=50%>
 
