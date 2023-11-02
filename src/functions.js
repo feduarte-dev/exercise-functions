@@ -52,13 +52,6 @@ function maisRepetido(array) {
   }
   return repetido;
 }
-function repeticoes(repetido) {
-  let quantasRep = 0;
-  if (repetido > quantasRep) {
-    quantasRep = repetido;
-    repetido = array[index];
-  }
-}
 
 // Requisito 6 - Crie a função somatorio
 function somatorio(n) {
