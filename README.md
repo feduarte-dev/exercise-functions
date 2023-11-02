@@ -42,7 +42,13 @@ The project consists of a single js file (`functions.js`) and an some tests usin
    cd your-repository
    ```
 
-3. Open functions.js and call a function.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Open functions.js and call a function.
 
 ## Contributions
 
